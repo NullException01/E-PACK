@@ -1,0 +1,80 @@
+body {
+	background-color:black;
+}
+.recorder {
+	position: fixed;
+	top: 32%;
+	left: 10%;
+}
+.recorder img{
+	height: 300px;
+	width: 400px;
+	border-style: rounded;
+	border-radius: 350px;
+}
+.border1 {
+	position: fixed;
+	top: 3%;
+	left: 1%;
+	border: 1px solid white;
+	height: 130px;
+	width: 1330px;
+}
+.full {
+	position: fixed;
+	height: 500px;
+	width: 716px;
+	top: 24%;
+	left: 46%;
+	border: 1px solid white;
+	overflow: hidden scroll;
+}
+.border2 {
+  border: 1px solid #ccc;
+}
+.border2:hover {
+  border: 1px solid #777;
+}
+.border2 img {
+  width: 342px;
+  height: 176px;
+}
+.desc {
+  padding: 15px;
+  text-align: center;
+  color: white;
+}
+* {
+  box-sizing: border-box;
+}
+.whole {
+	padding: 2px 2px;
+	float: left;
+}
+.Elogo {
+	position: fixed;
+	bottom: 72%;
+	left: 1%;
+}
+.Elogo img {
+	height: 200px;
+	width: 200px;
+}
+.logo {
+	position: fixed;
+	bottom: 72%;
+	left: 40%;
+}
+.logo img {
+	height: 200px;
+	width: 200px;
+}
+.otherlogo {
+	position: fixed;
+	bottom: 72%;
+	right: 4%;
+}
+.otherlogo img {
+	height: 200px;
+	width: 300px;
+}

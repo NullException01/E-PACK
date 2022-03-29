@@ -1,0 +1,85 @@
+body {
+	background-image: url("bg.jpg");
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.border1 {
+	position: absolute;
+	top: 12%;
+	left: 56%;
+	border: 2px solid white;
+	height: 540px;
+	width: 520px;
+}
+.whole {
+	position: absolute;
+	top: 37%;
+	left: 57.5%;
+}
+input {
+	font-size: 14px;
+	margin: 12px;
+	padding: 5px 5px;
+	width: 200px;
+	height: 25px
+}
+img {
+	position: absolute;
+	top: 18%;
+	left: 64.5%;
+	height: 150px;
+	width: 300px;
+}
+button {
+	position: absolute;
+	font-size: 18px;
+	height: 36px;
+	width: 100px;
+	text-align: center;
+	font-family:Arial Black;
+	left: 40%;
+	background-color: gray;
+}
+button:hover {
+	color: white;
+	background-color: navy;
+}
+.signUp {
+	position: absolute;
+	top: 77%;
+	left: 60%;
+}
+.signUp h1{
+	margin: 20px;
+	font-size: 20px;
+	color: white;
+	position: relative;
+	right: 40px;
+	top: 16px;
+}
+.whole .username input {
+	width: 442px;
+}
+a {
+	text-decoration: none;
+	font-size: 18px;
+	color: blue;
+}
+a:hover {
+	color: cyan;
+}
+h1 {
+	color: white;
+	font-size: 24px;
+	text-align: center;
+}
+.Elogo {
+	position: absolute;
+	bottom: 102.5%;
+	right: 100.5%;
+}
+.Elogo img {
+	height: 170px;
+	width: 170px;
+}

@@ -1,0 +1,79 @@
+body {
+	background-image: url("bg2.jpg");
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.border1 {
+	position: absolute;
+	top: 12%;
+	left: 56%;
+	border: 2px solid white;
+	height: 540px;
+	width: 520px;
+}
+.write {
+	position: absolute;
+	top: 40%;
+	left: 58.5%;
+}
+input {
+	height: 38px;
+	width: 410px;
+	font-size: 18px;
+	padding: 2px;
+	margin: 16px;
+}
+.write h1 {
+	color: white; 
+	margin: 5px;
+	text-align: center;
+	font-size: 30px;
+}
+img {
+	position: absolute;
+	top: 18%;
+	left: 64.5%;
+	height: 150px;
+	width: 300px;
+}
+button {
+	position: absolute;
+	font-size: 18px;
+	height: 36px;
+	width: 100px;
+	text-align: center;
+	font-family:Arial Black;
+	left: 40%;
+	background-color: gray;
+}
+button:hover {
+	color: white;
+	background-color: navy;
+}
+.signUp {
+	position: absolute;
+	top: 77%;
+	left: 60%;
+}
+.signUp h1{
+	font-size: 20px;
+	color: white;
+}
+a {
+	text-decoration: none;
+	font-size: 18px;
+	color: blue;
+}
+a:hover {
+	color: cyan;
+}
+.Elogo {
+	position: absolute;
+	bottom: 102.5%;
+	right: 100.5%;
+}
+.Elogo img {
+	height: 170px;
+	width: 170px;
+}

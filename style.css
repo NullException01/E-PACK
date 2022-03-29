@@ -1,0 +1,164 @@
+body {
+	background-image: url("bg5.jpg");
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.main a {
+	display: inline-block;
+	background-color: transparent;
+	text-decoration: none;
+	text-align: center;
+	border: 2px solid white;
+	margin: 8px;
+	padding: 7px;
+	height: 30px;
+	width: 194px;
+	transition: 0.5s;
+	color: white;
+	font-family: Arial Black;
+}
+.main a:hover {
+	color: white;
+	background-color: blue;
+}
+.main1 a {
+	display: inline-block;
+	background-color: transparent;
+	text-decoration: none;
+	text-align: center;
+	border: 2px solid white;
+	margin: 8px;
+	padding: 7px;
+	height: 30px;
+	width: 194px;
+	transition: 0.5s;
+	color: white;
+	font-family: Arial Black;
+}
+.main1 a:hover {
+	color: white;
+	background-color: blue;
+}
+header {
+	position: fixed;
+	top: 60%;
+	left: 8%;
+}
+.logo img{
+	position: fixed;
+	bottom: 77%;
+	right: 88%;
+	height: 170px;
+	width: 170px;
+}
+.name {
+	position: absolute;
+	display: align;
+	top: 46%;
+	left: 22%;
+	border: 1px double black;
+}
+input{
+	position: absolute;
+	height: 40px;
+	width: 660px;
+	text-decoration: none;
+	padding: 5px;
+	font-size: 20px;
+	overflow: transparent;
+	border: 1.5px solid black; 
+}
+button img{
+	position: absolute;
+	height: 49.8px;
+	width: 42px;
+	left: 678px;
+	top: 0.9px;
+	border: 1.1px solid black; 
+}
+.upperLogo img {
+	position: absolute;
+	height: 140px;
+	width: 280px;
+	left: 40%;
+	top: 27%;
+}
+.dropbtn {
+  background-color: blue;
+  color: white;
+  padding: 5px;
+  font-size: 16px;
+  border: none;
+  height: 40px;
+  width: 94px;
+  font-family: Arial Black;
+}
+.dropdown {
+  position: absolute;
+  display: inline-block;
+  top: 4%;
+  right: 10%;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: black;
+  transition: 0.5s;
+}
+.dropdown-content a {
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  height: 20px;
+}
+.dropdown-content a:hover {
+	background-color: orange;
+	color: white;
+}
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+.dropdown:hover .dropbtn {
+	background-color: navy;
+}
+.sign {
+  background-color: blue;
+  color: white;
+  padding: 5px;
+  font-size: 16px;
+  border: none;
+  height: 40px;
+  width: 94px;
+  font-family: Arial Black;
+}
+.signIn {
+  position: absolute;
+  display: inline-block;
+  top: 4%;
+  right: 2%;
+}
+.signIn-content {
+  display: none;
+  position: absolute;
+  background-color: black;
+  transition: 0.5s;
+}
+.signIn-content a {
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  height: 20px;
+}
+.signIn-content a:hover {
+	background-color: orange;
+	color: white;
+}
+.signIn:hover .signIn-content {
+	display: block;
+}
+.sigIn:hover .sign {
+	background-color: navy;
+}
